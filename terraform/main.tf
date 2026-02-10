@@ -22,8 +22,8 @@ resource "aws_instance" "game_server" {
   }
 }
 
-resource "aws_security_group" "game-sg-jenkins" {
-  name = "game-sg-jenkins"
+resource "aws_security_group" "gamenew" {
+  name = "gamenew"
 
   ingress {
     from_port   = 22
